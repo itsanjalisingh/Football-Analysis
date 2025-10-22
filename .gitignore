@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data / models / outputs (don’t push large binaries)
+models/
+input_videos/
+output_videos/
+stubs/
+*.pkl
+
+# IDE
+.vscode/
+*.log
